@@ -5,7 +5,7 @@
 # Apple Pay
 
 ```
-$ ionic cordova plugin add https://github.com/LolaDoInc/cordova-plugin-applepay
+$ npm install cordova-plugin-applepay-lolado
 $ npm install @lolado/apple-pay
 ```
 
