@@ -1,6 +1,6 @@
 import { __extends } from "tslib";
 import { Injectable } from '@angular/core';
-import { IonicNativePlugin, cordova } from '@ionic-native/core';
+import { IonicNativePlugin, cordova } from '@lolado/core';
 import { Observable } from 'rxjs';
 var ApplePay = /** @class */ (function (_super) {
     __extends(ApplePay, _super);

@@ -1,4 +1,4 @@
-import { IonicNativePlugin } from '@ionic-native/core';
+import { IonicNativePlugin } from '@lolado/core';
 import { Observable } from 'rxjs';
 export declare type IMakePayments = 'This device can make payments and has a supported card' | 'This device cannot make payments.' | 'This device can make payments but has no supported cards';
 export declare type IShippingType = 'shipping' | 'delivery' | 'store' | 'service';
@@ -75,7 +75,7 @@ export interface ISelectedShippingContact {
  *
  * @usage
  * ```typescript
- * import { ApplePay } from '@ionic-native/apple-pay/ngx';
+ * import { ApplePay } from '@lolado/apple-pay/ngx';
  *
  *
  * constructor(private applePay: ApplePay) { }

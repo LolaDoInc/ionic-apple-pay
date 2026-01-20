@@ -4,7 +4,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 
 var tslib = require('tslib');
 var core$1 = require('@angular/core');
-var core = require('@ionic-native/core');
+var core = require('@lolado/core');
 require('rxjs');
 
 var ApplePay = /** @class */ (function (_super) {
